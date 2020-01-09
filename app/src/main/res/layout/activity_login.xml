@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/activiapp"
     tools:context=".LoginActivity">
     <TextView
         android:id="@+id/textView2"
@@ -14,7 +15,7 @@
         android:fontFamily="@font/light"
         android:text="No es usted un miembro?"
         android:textColor="@color/gray"
-        android:textSize="16sp"
+        android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.047"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -32,7 +33,7 @@
         android:fontFamily="@font/bold"
         android:text="Registrar."
         android:textColor="@color/red"
-        android:textSize="16sp"
+        android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -69,14 +70,15 @@
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="372dp"
-        android:ems="10"
-        android:inputType="textPassword"
-        android:hint="Password"
-        android:textColorHint="@color/gray"
+        android:layout_marginBottom="380dp"
         android:background="@drawable/input_file"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/gray"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
@@ -93,7 +95,7 @@
         android:text="Login"
         android:textAllCaps="false"
         android:textColor="@color/white"
-        android:textSize="22sp"
+        android:textSize="26sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.206"
@@ -125,15 +127,15 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="16dp"
         android:fontFamily="@font/bold"
-        android:text="Hola"
-        android:textColor="@color/gray"
+        android:text="Usuario"
+        android:textColor="@color/white"
         android:textSize="45dp"
         app:layout_constraintBottom_toTopOf="@+id/editText"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.159"
+        app:layout_constraintHorizontal_bias="0.438"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.746" />
+        app:layout_constraintVertical_bias="0.442" />
 
     <Button
         android:id="@+id/anterior"
@@ -147,7 +149,7 @@
         android:background="@drawable/anterior"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />

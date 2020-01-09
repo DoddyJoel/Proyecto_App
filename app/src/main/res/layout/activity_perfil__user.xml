@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Perfil_User"
-    android:background="@drawable/background_user">
+    android:background="@drawable/activiapp">
 
      <com.mikhaellopez.circularimageview.CircularImageView
         android:id="@+id/foto_perfil"
@@ -101,9 +101,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
-        android:layout_marginStart="80dp"
-        android:layout_marginLeft="80dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
         android:layout_marginTop="152dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
         android:fontFamily="@font/light"
         android:text="Registrar Mochila"
         android:textColor="@color/gray"
